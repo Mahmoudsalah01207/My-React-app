@@ -29,14 +29,14 @@ export default class Home extends Component {
         
 
           <div className=' d-flex social-icon'>
-            <a href="#">            <FontAwesomeIcon icon={faFacebook} className='social-icon-item' /> {/* Use FontAwesomeIcon */}            </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100009146995126">            <FontAwesomeIcon icon={faFacebook} className='social-icon-item' /> {/* Use FontAwesomeIcon */}            </a>
+            <a href="https://www.facebook.com/profile.php?id=100009146995126">
             <FontAwesomeIcon icon={faSquareTwitter} className='social-icon-item' /> 
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100009146995126">
             <FontAwesomeIcon icon={faLinkedin} className='social-icon-item' /> 
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100009146995126">
             <FontAwesomeIcon icon={faGooglePlusG} className='social-icon-item' />           
             </a>
             </div>
@@ -45,7 +45,7 @@ export default class Home extends Component {
             <img src={process.env.PUBLIC_URL + '/img/unnamed (1).jpg'} alt="Description of your image" />
           </div>
             <div className=' ms-auto Scroll '>
-              <a href="#" className='bg-denger'>Scroll down</a>
+              <a href="https://www.facebook.com/profile.php?id=100009146995126" className='bg-denger'>Scroll down</a>
             </div>
             </div>
 

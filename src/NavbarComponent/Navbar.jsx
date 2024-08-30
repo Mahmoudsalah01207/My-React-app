@@ -17,19 +17,19 @@ export default class Navbar extends Component {
           <div className="container-fluid">
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
-                <a className="navbar-brand" href="#" onClick={this.handleNavigation}>
+                <a className="navbar-brand" href="home" onClick={this.handleNavigation}>
                   <FontAwesomeIcon icon={faHome} className="home-icon" />
                 </a>
-                <a className="nav-link" aria-current="page" href="#" onClick={this.handleNavigation}>
+                <a className="nav-link" aria-current="page" href="about" onClick={this.handleNavigation}>
                   <FontAwesomeIcon icon={faUser} className="home-icon" />
                 </a>
-                <a className="nav-link" href="#" onClick={this.handleNavigation}>
+                <a className="nav-link" href="skill" onClick={this.handleNavigation}>
                   <FontAwesomeIcon icon={faLaptopCode} className="home-icon" />
                 </a>
-                <a className="nav-link" href="#" onClick={this.handleNavigation}>
+                <a className="nav-link" href="project" onClick={this.handleNavigation}>
                   <FontAwesomeIcon icon={faListCheck} className="home-icon" />
                 </a>
-                <a className="nav-link" href="#" onClick={this.handleNavigation}>
+                <a className="nav-link" href="Email" onClick={this.handleNavigation}>
                   <FontAwesomeIcon icon={faNoteSticky} className="home-icon" />
                 </a>
               </div>
